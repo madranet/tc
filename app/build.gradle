@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.thinkcar.diagtest'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.thinkcar.diagtest"
+        minSdk 24
+        targetSdk 29
+        versionCode 1
+        versionName "1.0"
+    }
+
+    // Debug build type is auto-signed with the default debug keystore,
+    // which is all that's needed for `adb install`.
+}
